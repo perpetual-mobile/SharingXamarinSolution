@@ -80,7 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AndroidLibrary\AndroidLibrary.csproj">
-      <Project>{277fb030-97ba-4180-9116-d0439b069433}</Project>
+      <Project>{277FB030-97BA-4180-9116-D0439B069433}</Project>
       <Name>AndroidLibrary</Name>
     </ProjectReference>
   </ItemGroup>
