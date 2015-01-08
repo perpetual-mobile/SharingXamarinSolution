@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.iOS", "TestApp\Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.Android", "TestApp\TestApp.Android\TestApp.Android.csproj", "{1B9E586F-75B1-4C93-8385-6D15E1124EC3}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestApp2", "TestApp\TestApp2\TestApp2.shproj", "{052439C9-856E-436D-806F-13347B80053D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
