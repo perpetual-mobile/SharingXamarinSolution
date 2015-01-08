@@ -79,6 +79,7 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <Import Project="..\TestApp\TestApp.projitems" Label="Shared" Condition="Exists('..\TestApp\TestApp.projitems')" />
+  <Import Project="..\TestApp2\TestApp2.projitems" Label="Shared" Condition="Exists('..\TestApp2\TestApp2.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.1.0.6186\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.0.6186\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
