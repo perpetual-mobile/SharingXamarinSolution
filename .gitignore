@@ -1,0 +1,18 @@
+*.userprefs
+*.suo
+
+#build folders
+[Bb]in/
+[Oo]bj/
+
+packages/
+
+#test folders
+[Tt]est[Rr]esults/
+[Tt]est-[Rr]esults/
+
+#tmp files
+.DS_Store
+
+#generated files
+*Resource*.[dD]esigner.cs
