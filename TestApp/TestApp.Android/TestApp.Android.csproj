@@ -78,6 +78,12 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AndroidLibrary\AndroidLibrary.csproj">
+      <Project>{277fb030-97ba-4180-9116-d0439b069433}</Project>
+      <Name>AndroidLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\TestApp\TestApp.projitems" Label="Shared" Condition="Exists('..\TestApp\TestApp.projitems')" />
   <Import Project="..\TestApp2\TestApp2.projitems" Label="Shared" Condition="Exists('..\TestApp2\TestApp2.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
