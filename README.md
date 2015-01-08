@@ -8,10 +8,10 @@ The problem is that Xamarin Studio and Visual Studio make unexpected changes in 
 
 Examples are:
 
-* UUIDs changed from lower to upper case (e.g. commit 497b3dfd121a888c8708b541d1590737ef7bef39).
-* Reordering of .sln file (e.g. commit 497b3dfd121a888c8708b541d1590737ef7bef39).
-* Changing the "ToolsVersion" (e.g. commit df03210c9211446aba39d9542a0312da50f525e9).
-* Changing the "Visual Studio" version (e.g. commit df03210c9211446aba39d9542a0312da50f525e9).
+* UUIDs changed from lower to upper case (e.g. SHA: 497b3dfd121a888c8708b541d1590737ef7bef39).
+* Reordering of .sln file (e.g. SHA: 497b3dfd121a888c8708b541d1590737ef7bef39).
+* Changing the "ToolsVersion" (e.g. SHA: df03210c9211446aba39d9542a0312da50f525e9).
+* Changing the "Visual Studio" version (e.g. SHA: df03210c9211446aba39d9542a0312da50f525e9).
 * Other changes, like changing line break, changed "true" to "True", ...
 
 ## Used tool versions
